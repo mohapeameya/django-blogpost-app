@@ -81,18 +81,9 @@ WSGI_APPLICATION = 'blogpost.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {    
-        # settings for sqlite database
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-
-        # settings for postgres database
-        # 'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME': env.str('NAME'),
-        # 'USER': env.str('USER'),
-        # 'PASSWORD': env.str('PASSWORD'),
-        # 'HOST': env.str('HOST'),
-        # 'PORT': env.str('PORT'),
     }
 }
 
