@@ -11,6 +11,10 @@ Clone the repository to get a copy for yourself
 ```
 $ git clone https://github.com/mohapeameya/django-blogpost-app.git
 ```
+Change current directory to ```django-blopost-app```
+```
+$ cd django-blogpost-app
+```
 Install the following dependencies if not already installed
 ```
 $ sudo apt install python3 python3-pip python3-dev python3-venv python3-distutils -y
@@ -18,11 +22,8 @@ $ sudo apt install python3 python3-pip python3-dev python3-venv python3-distutil
 
 
 ### Installing
-Change current directory to ```django-blopost-app```
-```
-$ cd django-blogpost-app
-```
-Create a virtual environment in this directory
+
+Create a virtual environment for this project
 ```
 $ python3 -m venv env
 ```
