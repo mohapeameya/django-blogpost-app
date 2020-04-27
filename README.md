@@ -87,9 +87,9 @@ Goto http://127.0.0.1:8000 to check it out
 
 <!--We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). -->
 
-## Authors
+<!--## Authors-->
 
-* **Ameya Mohape** - *Initial work* - [mohapeameya](https://github.com/mohapeameya)
+<!--* **Ameya Mohape** - *Initial work* - [mohapeameya](https://github.com/mohapeameya)-->
 
 <!--See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.-->
 
