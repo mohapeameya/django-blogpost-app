@@ -59,6 +59,12 @@ Create the necessary database tables
 ```
 $ python3 manage.py migrate
 ```
+Create super user for the website
+```
+$ python3 manage.py createsuperuser
+```
+Goto http://127.0.0.1:8000/admin/ to access site administration using credentials created with the above command.  
+  
 Run development server
 ```
 $ python3 manage.py runserver
