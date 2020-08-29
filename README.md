@@ -39,6 +39,13 @@ Install requirements using pip from ```requirements.txt``` file
 ```
 $ python3 -m pip install -r requirements.txt
 ```
+Create a Gmail account to manage password recovery system of the website.   
+The email and its app password will used as ```EMAIL_HOST_USER``` and ```EMAIL_HOST_PASSWORD``` respectively.  
+Enable app password for this account
+````
+Gmail > Account > Security > App passwords
+````
+
 Create ```.env``` file to configure environment variables for ```settings.py```
 ```
 $ vim blogpost/.env
